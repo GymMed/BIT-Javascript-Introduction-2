@@ -9,6 +9,7 @@ sixthButtonDom.addEventListener("click", function () {
 });
 
 function sixthTask() {
+    sentance = sentanceDom.value;
     console.log(sentance);
 
     let changedSentance = sentance.replaceAll("O", "*");
